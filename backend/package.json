@@ -1,0 +1,18 @@
+{
+  "name": "inotebook-backend",
+  "version": "1.0.0",
+  "description": "Inotebook \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[i\u001b[N\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C - Your Notebook on the Cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
