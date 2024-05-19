@@ -1,7 +1,12 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const NotesSchema = new Schema({
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "user",
+    //required: true, // Ensuring a user is always associated with the note
+  },
   title: {
     type: String,
     required: true,
